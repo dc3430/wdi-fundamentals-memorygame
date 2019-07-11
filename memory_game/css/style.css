@@ -5,7 +5,7 @@ text-align: center;
 a {
   text-decoration: none;
   font-family: raleway, serif;
-  background-color: #F15B31;
+  color: #F15B31;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 18px;
@@ -13,7 +13,7 @@ a {
 
 h1 {
   font-family: raleway, serif;
-  background-color: #0D2C40;
+  color: #0D2C40;
   letter-spacing: 1px;
   font-weight: 400;
   font-size: 45px;
@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   font-family: raleway, serif;
-  background-color: #0D2C40;
+  color: #0D2C40;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 20px;
