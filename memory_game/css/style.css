@@ -11,6 +11,7 @@ a {
   font-weight: 600;
   font-size: 18px;
   margin: 0px 20px 0px 20px;
+  border-bottom: 2px solid transparent;
 }
 
 header {
@@ -39,6 +40,11 @@ main {
   margin: 35px auto;
 }
 
+main a {
+  color: blue;
+  border-bottom: 2px solid transparent;
+}
+
 h2 {
   font-family: raleway, san-serif;
   color: #0D2C40;
@@ -65,8 +71,40 @@ h3 {
   font-size: 20px; 
   }
 
-section {
-  background-color: #00A6B3;
-  margin: 20px auto;
-  padding 30px 0px;
+footer {
+  text-transform: uppercase;
+  padding 0px 20px;
+  background-color: #0D2C40;
+  color: #FFFFFF;
+  font-size: 14px;
+  letter-spacing: .08em;
+  font-weight: 500;
+}
+
+.copyright {
+  font-family: raleway, san-serif;
+  float: left;
+}
+
+.message {
+  font-family: raleway, san-serif;
+  float: right;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+.name {
+  color: #F15B31;
+  font-weight: 700; 
+}
+
+a:hover {
+color: #FFFFFF
 }
