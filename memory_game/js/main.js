@@ -11,6 +11,8 @@ console.log("User flipped + cardOne");
 
 var cards = ["queen", "quene", "king", "king"];
 
+var cardsInPlay = [];
+
 var cardOne = [0];
 cardsInPlay.push('cardOne');
 console.log("User Flipped " + cardOne);
