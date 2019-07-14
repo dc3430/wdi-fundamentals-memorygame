@@ -13,8 +13,10 @@ var cards = ["queen", "quene", "king", "king"];
 
 var cardOne = [0];
 cardsInPlay.push('cardOne');
+console.log("User Flipped " + cardOne);
 
 var cardTwo = [3];
 cardsInPlay.push('cardTwo');
+console.log("User Flipped " + cardTwo);
 
 console.log();
