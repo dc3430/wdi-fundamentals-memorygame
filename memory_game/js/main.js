@@ -17,7 +17,7 @@ var cardOne = [0];
 cardsInPlay.push('cardOne');
 console.log("User Flipped " + cardOne);
 
-var cardTwo = [3];
+var cardTwo = [2];
 cardsInPlay.push('cardTwo');
 console.log("User Flipped " + cardTwo);
 
