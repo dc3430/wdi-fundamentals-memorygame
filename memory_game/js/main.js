@@ -25,11 +25,11 @@ var cardsInPlay = [];
 
 var flipCard = function() {
     var cardElement = this.getAttribute('data-id');
-    console.log("User flipped " + (cards[cardElement].rank));
-    cardsInPlay.push(cards[cardElement].rank);
+    console.log("User flipped " + (cards[cardId].rank));
+    cardsInPlay.push(cards[cardID].rank);
     checkForMatch();
-    console.log(cards[cardElement].cardImage);
-    console.log(cards[cardElement].suit);
+    console.log(cards[cardId].cardImage);
+    console.log(cards[cardId].suit);
 };
 
 var checkForMatch = function() {
